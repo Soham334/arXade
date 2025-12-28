@@ -129,116 +129,113 @@ arXade/
 - Docker & Docker Compose
 - MongoDB Atlas account with Vector Search enabled
 - Google Gemini API key
+---
 
-### Installation Steps
+## ⚙️ Installation Steps
 
-1. Clone the repository
-   ```bash
-   git clone <repository-url>
-   cd arXade
-Configure environment variables
+### 1. Clone the Repository
 
+```bash
+git clone <repository-url>
+cd arXade
+````
+
+### 2. Configure Environment Variables
+
+```bash
 cp .env.example .env
+```
 
+### 3. Start the Application
 
-Start the application
-
+```bash
 docker-compose up
+```
 
+### 4. Access Services
 
-Access services
-
-Frontend: http://localhost:3000
-
-Backend API: http://localhost:8000
-
-API Docs: http://localhost:8000/docs
-
-💡 Use Cases
-Academic Research
-
-Concept-based discovery of related research
-
-Semantic similarity search
-
-Trend exploration via visual analytics
-
-Student Projects
-
-Full-stack development practice
-
-Vector embeddings and AI integration
-
-Dockerized system design
-
-Learning & Demonstration
-
-Portfolio-grade AI project
-
-Modern web architecture example
-
-Real-world API and database integration
-
-📚 Learning Outcomes
-
-Vector databases and similarity search
-
-AI embedding and summarization workflows
-
-Full-stack coordination (Next.js + FastAPI)
-
-REST API design and validation
-
-Interactive data visualization
-
-Containerized development practices
-
-Quantization and efficient data processing
-
-📊 Dataset Information
-
-The project works with arXiv computer science papers processed into vector embeddings.
-Int8 quantization reduces storage usage by approximately 75% while preserving semantic search accuracy.
-
-Format: JSONL
-
-Content: Title, authors, abstract, categories, publication date, embeddings
-
-Domains: ML, CV, NLP, AI, and related CS fields
-
-👥 Credits & Attribution
-
-Developed as a collaborative academic project and maintained independently for learning and development purposes.
-Research papers are sourced from arXiv.org, an open-access repository maintained by Cornell University.
-
-📄 License
-
-This project is licensed under the MIT License. See the LICENSE
- file for details.
-
-🚀 Future Enhancements
-
-User authentication and saved searches
-
-Advanced filtering and analytics
-
-Citation network visualization
-
-Collaborative research collections
-
-Multi-paper AI summarization
-
-Performance optimization and caching
-
-Mobile-responsive enhancements
-
-API usage monitoring and throttling
-
-Export tools for summaries and citations
-
-Personalized recommendation engine
+* **Frontend:** [http://localhost:3000](http://localhost:3000)
+* **Backend API:** [http://localhost:8000](http://localhost:8000)
+* **API Documentation:** [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
+
+## 💡 Use Cases
+
+### Academic Research
+
+* Concept-based discovery of related research
+* Semantic similarity search
+* Trend exploration via visual analytics
+
+### Student Projects
+
+* Full-stack development practice
+* Vector embeddings and AI integration
+* Dockerized system design
+
+### Learning & Demonstration
+
+* Portfolio-grade AI project
+* Modern web architecture example
+* Real-world API and database integration
+
+---
+
+## 📚 Learning Outcomes
+
+* Vector databases and similarity search
+* AI embedding and summarization workflows
+* Full-stack coordination (Next.js + FastAPI)
+* REST API design and validation
+* Interactive data visualization
+* Containerized development practices
+* Quantization and efficient data processing
+
+---
+
+## 📊 Dataset Information
+
+This project works with **arXiv computer science papers** processed into vector embeddings.
+
+| Attribute         | Details                                                            |
+| ----------------- | ------------------------------------------------------------------ |
+| Format            | JSONL                                                              |
+| Content           | Title, authors, abstract, categories, publication date, embeddings |
+| Domains           | ML, CV, NLP, AI, and related CS fields                             |
+| Optimization      | Int8 quantization                                                  |
+| Storage Reduction | ~75% with preserved semantic accuracy                              |
+
+---
+
+## 👥 Credits & Attribution
+
+Developed as a **collaborative academic project** and maintained independently for learning and development purposes.
+Research papers are sourced from **arXiv.org**, an open-access repository maintained by **Cornell University**.
+
+---
+
+## 🚀 Future Enhancements
+
+| Area               | Planned Improvements                |
+| ------------------ | ----------------------------------- |
+| Authentication     | User accounts and saved searches    |
+| Search & Analytics | Advanced filters and trend analysis |
+| Visualization      | Citation network graphs             |
+| Collaboration      | Shared research collections         |
+| AI Features        | Multi-paper summarization           |
+| Performance        | Caching and query optimization      |
+| UX                 | Mobile-responsive enhancements      |
+| API                | Usage monitoring and throttling     |
+| Export             | Summary and citation export tools   |
+| Personalization    | Recommendation engine               |
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for details.
 
 <p align="center">
   <em>Built for researchers, students, and developers interested in AI-powered search and modern web development.</em>
