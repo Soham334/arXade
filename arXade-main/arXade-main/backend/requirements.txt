@@ -1,0 +1,22 @@
+# Web Framework
+fastapi==0.110.0
+uvicorn[standard]==0.27.1
+
+# Database
+pymongo==4.6.2
+
+# AI/ML Libraries
+google-generativeai>=0.8.5
+numpy==1.26.4
+
+# Data Validation
+pydantic==2.6.3
+
+# Configuration
+python-dotenv==1.0.1
+
+# HTTP Client (needed for health checks)
+requests==2.31.0
+
+# Production ASGI server with better performance
+gunicorn==21.2.0
