@@ -1,0 +1,129 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+data/arXade_final.jsonl 
+data/arXade.jsonl 
+data/connect.py 
+data/search.py
+data/vsearch.py
+
+# dependencies
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.pnp.*
+/frontend/.yarn/*
+!/frontend/.yarn/patches
+!/frontend/.yarn/plugins
+!/frontend/.yarn/releases
+!/frontend/.yarn/versions
+
+# testing
+/frontend/coverage
+
+# next.js
+/frontend/.next/
+/frontend/out/
+
+# production
+/frontend/build
+
+# misc
+/frontend/.DS_Store
+/frontend/*.pem
+
+# debug
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/frontend/.env*
+!frontend/.env.example
+
+# root env files
+.env
+.env.*
+!.env.example
+
+# vercel
+/frontend/.vercel
+
+# typescript
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# backend env
+/backend/.env*
+!/backend/.env.example
+
+# deployment scripts (contain sensitive project info)
+/backend/deploy-cloudrun.sh
+/backend/deploy-*.sh
+/frontend/deploy-cloudrun.sh
+/frontend/deploy-*.sh
+
+#cursor
+.cursorrules
+
+# Node.js
+/node_modules
+/dist
+/.next/
+/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.env.local
+.env*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+.egg-info/
+*.egg
+/instance
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Deployment & Build Files
+frontend/deploy-cloudrun.ps1
+frontend/cloudbuild.yaml
+frontend/Dockerfile
+backend/deploy-cloudrun.ps1
+backend/Dockerfile
+
+~/.docker
